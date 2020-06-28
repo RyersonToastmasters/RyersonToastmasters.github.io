@@ -1,7 +1,18 @@
 /* Resetting the page margins */
-body{
+*{
   margin: 0;
+  padding: 0;
 }
+
+/* Setting the fonts for the page */
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+/* Setting the fonts for the page */
 
 /* Editing the nav bar */
 nav{
@@ -10,7 +21,7 @@ nav{
   display: flex;
 }
 
-logocontainer{
+nav logocontainer{
   display: inline-block;
 position: relative;
 width: 80px;
@@ -19,7 +30,7 @@ overflow: hidden;
 margin: 5px 5px 10px;
 }
 
-svg{
+nav svg{
   fill: white;
   width: 100%;
   height: 100%;
@@ -28,19 +39,11 @@ svg{
   position: absolute;
 }
 
-svg:hover{
+nav svg:hover{
   fill: #F2DF74;
 }
 
-path{
+nav path{
   transition: fill .5s ease;
 }
-
 /* Editing the nav bar */
-
-
-
-
-h1{
-  color: #772432;
-}
