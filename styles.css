@@ -1,0 +1,46 @@
+/* Resetting the page margins */
+body{
+  margin: 0;
+}
+
+/* Editing the nav bar */
+nav{
+  min-height: 80px;
+  background-color: #722431;
+  display: flex;
+}
+
+logocontainer{
+  display: inline-block;
+position: relative;
+width: 80px;
+vertical-align: middle;
+overflow: hidden;
+margin: 5px 5px 10px;
+}
+
+svg{
+  fill: white;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  display: inline-block;
+  position: absolute;
+}
+
+svg:hover{
+  fill: #F2DF74;
+}
+
+path{
+  transition: fill .5s ease;
+}
+
+/* Editing the nav bar */
+
+
+
+
+h1{
+  color: #772432;
+}
