@@ -5,7 +5,9 @@
     text-decoration: none;
 }
 
-
+main{
+    padding: 60px 0 0 0;
+}
 
 /* Adjusting the main content settings*/
 .wrapper{
@@ -62,9 +64,13 @@ h2{
 /* Editing the nav bar */
 nav{
   min-height: 60px;
-    max-height: 10vh;
   background-color: #722431;
   display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+
 }
 
 nav logocontainer{
