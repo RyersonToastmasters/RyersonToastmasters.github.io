@@ -22,12 +22,16 @@
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
+  background-color: #CD202C; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 15px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+}
+
+#myBtn a{
+    color: white;
 }
 
 #myBtn:hover {
@@ -47,6 +51,10 @@ p{
 
 h1{
   font-family: 'Raleway', sans-serif;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif; 
 }
 
 /* Setting the fonts for the page */
