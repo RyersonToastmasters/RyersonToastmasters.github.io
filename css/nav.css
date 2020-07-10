@@ -1,0 +1,42 @@
+nav{
+  min-height: 60px;
+  background-color: #722431;
+  display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+
+}
+
+nav logocontainer{
+  display: inline-block;
+position: relative;
+width: 80px;
+vertical-align: middle;
+overflow: hidden;
+margin: 5px 5px 10px;
+}
+
+nav svg{
+  fill: white;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  display: inline-block;
+  position: absolute;
+}
+
+nav svg:hover{
+  fill: #F2DF74;
+}
+
+nav path{
+  transition: fill .5s ease;
+}
+
+nav h1{
+    color: white;
+    margin: auto;
+    text-align: center;
+}

@@ -1,4 +1,4 @@
-/* Resetting the page margins */
+/* Adjusting the main content settings*/
 *{
   margin: 0;
   padding: 0;
@@ -9,11 +9,11 @@ main{
     padding: 60px 0 0 0;
 }
 
-/* Adjusting the main content settings*/
 .wrapper{
     display: flex;
     flex-flow: wrap;
 }
+/* Adjusting the main content settings*/
 
 
 /*Adjusting the Attend a Meeting button*/
@@ -43,7 +43,7 @@ main{
 #myBtn a{
     color: white;
 }
-
+/*Adjusting the Attend a Meeting button*/
 
 
 /* Setting the fonts for the page */
@@ -61,60 +61,15 @@ h2{
 
 /* Setting the fonts for the page */
 
-/* Editing the nav bar */
-nav{
-  min-height: 60px;
-  background-color: #722431;
-  display: flex;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 99;
 
-}
-
-nav logocontainer{
-  display: inline-block;
-position: relative;
-width: 80px;
-vertical-align: middle;
-overflow: hidden;
-margin: 5px 5px 10px;
-}
-
-nav svg{
-  fill: white;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  display: inline-block;
-  position: absolute;
-}
-
-nav svg:hover{
-  fill: #F2DF74;
-}
-
-nav path{
-  transition: fill .5s ease;
-}
-
-nav h1{
-    color: white;
-    margin: auto;
-    text-align: center;
-}
-/* Editing the nav bar */
-
-
-
-.elevatorpitch{
+/* Adjusting the Hero Image*/
+.herotext{
     position: relative;
     width: 100vw;
     text-align: center;
 }
 
-.elevatorpitch h1{
+.herotext h1{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -133,4 +88,127 @@ nav h1{
     height: auto;
     object-fit: contain;
     background-position: center center;
+}
+/* Adjusting the Hero Image*/
+
+
+
+.head{
+    text-align: center;
+}
+
+.listhead{
+    padding: 2vh;
+
+}
+
+.container{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.container-even{
+    background-color: white;
+    width: 100%;
+}
+
+.container-body{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+hr{
+    border: 1px #F2DF74 solid;
+}
+
+.break{
+    width: 0;
+    flex-basis: 100%;
+}
+
+.modnumber{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 0 1vh;
+    color: #58595b;
+
+}
+
+.modhead{
+    justify-self: center;
+    align-self: center;
+    flex: 4;
+    padding: 2vh 1vh;
+}
+
+.modhead hr{
+    width: 100%;
+}
+
+ .modhead .title{
+
+    margin: 0;
+    padding: 15px 0px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #000;
+}
+
+
+/*Adjusting the buttons*/
+.modbutton{
+    padding: 0 0 3vh 10%;
+}
+
+.modbutton-odd{
+    margin-left: auto;
+    margin-right: 10%;
+    padding: 0 0 3vh;    
+    
+}
+
+#btn {
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #772432; /* Set a background color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 15px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+    white-space: nowrap;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .12), 2px 2px 4px 0 rgba(0, 0, 0, .14);
+}
+
+#btn a{
+    color: white; /*Set text white*/
+}
+
+#btn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/*Adjusting the buttons*/
+
+.faq{
+    width: 100%;
+}
+
+.faq_question {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+ 
+.faq_answer_container {
+    height: 0px;
+    overflow: hidden;
+    padding: 0;
 }
