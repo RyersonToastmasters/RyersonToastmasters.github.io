@@ -6,11 +6,14 @@
 
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/nav.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/text.css" type="text/css">
    
     <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js></script> 
     <script type="text/javascript" src="js/js.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/nav.min.js" charset="UTF-8"></script>
    
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -23,25 +26,33 @@
         </a>
       </logocontainer>
     
- <!--       <ul class="nav">
-            <li><a href="../index.html"><div id="about">About</div></a></li>
-            <li><a href="#"><div id="memberportal">Member Portal</div></a>
-                <div id="member-dropdown">
-                    <ul>
-                        <li><a href="#"><div id="basecamp">Base Camp</div></a></li>
-                        <li><a href="#" target="_blank"><div id="pathwaysguide">Pathways Guide</div></a></li>
+    <ul class="navbar">
+        <li><a href="#"><div id="about"><h2>About</h2></div></a></li>
+            <li><a href="#"><div id="members"><h2>Members</h2></div></a>
+                <div class="submenu">
+                    <div class="row">
+                        <ul class="column">
+                            <li><a href="html/newmembers.html"><div id="basecamp">New Member Guide</div></a></li>
+                            <li><a href="https://www.toastmasters.org/start-pathways" target="_blank"><div id="basecamp">Base Camp</div></a></li>
+                            <li><a href="https://d4tm.org/index.php/pathways/paths-and-projects.html?233WVf" target="_blank"><div id="pathwaysguide">Pathways Guide</div></a></li>
+                            
                         </ul>
+                        <ul class="column">
+                            <li><a href="#" target="_blank"><div id="pathwaysguide">Meet the Members</div></a></li>
+                            <li><a href="#" target="_blank"><div id="pathwaysguide">Meet the Executives</div></a></li>
+                        </ul>
+                    </div>                    
                 </div>
             </li>
-            <li><a href="#"><div id="events">Events</div></a></li>
-            <li><a href="#"><div id="faq">FAQ</div></a></li>
-            <li><a href="#"><div id="contactus">Contact Us</div></a></li>
+            <li><a href="#"><div id="events"><h2>Events</h2></div></a></li>
+            <li><a href="#"><div id="faq"><h2>FAQ</h2></div></a></li>
+            <li><a href="#"><div id="contactus"><h2>Contact Us</h2></div></a></li>
             
-        </ul> -->                   
+        </ul>                   
     </nav>
     
 <!--Attend a Meeting Button-->    
-    <button id="myBtn" title="Go to top"><a href="https://www.eventbrite.ca/e/the-ryerson-toastmasters-weekly-membership-meeting-tickets-110513236064" target="_blank">Attend a Meeting!</a></button>
+    <a href="https://www.eventbrite.ca/e/the-ryerson-toastmasters-weekly-membership-meeting-tickets-110513236064" target="_blank"><button id="myBtn" title="Go to top">Attend a Meeting!</button></a>
 <!--Attend a Meeting Button-->  
 
 <!--Main Section of the Website-->  
@@ -76,7 +87,7 @@
                 </div>
                 <div class="break"></div>
                 <div class="modbutton-odd">
-                    <button id="btn" title="Go to top"><a href="https://www.toastmasters.org/about/all-about-toastmasters" target="_blank">More About Toastmasters</a></button>
+                    <a href="https://www.toastmasters.org/about/all-about-toastmasters" target="_blank"><button id="btn">More About Toastmasters</button></a>
                 </div>
                 </div>
             </div>          
@@ -98,7 +109,7 @@
                 </div>
                 <div class="break"></div>
                 <div class="modbutton">
-                    <button id="btn" title="Go to top"><a href="https://www.eventbrite.ca/e/the-ryerson-toastmasters-weekly-membership-meeting-tickets-110513236064" target="_blank">Attend a Meeting!</a></button>
+                    <a href="https://www.eventbrite.ca/e/the-ryerson-toastmasters-weekly-membership-meeting-tickets-110513236064" target="_blank"><button id="btn">Attend a Meeting!</button></a>
                 </div>
                 </div>
             </div>        
@@ -120,7 +131,7 @@
                 </div>
                 <div class="break"></div>
                 <div class="modbutton-odd">
-                    <button id="btn" title="Go to top"><a href="https://forms.gle/pdz72xQKbm3KMNRh6" target="_blank">Become a Member</a></button>
+                    <a href="https://forms.gle/pdz72xQKbm3KMNRh6" target="_blank"><button id="btn">Become a Member</button></a>
                 </div>
                 </div>
             </div>
@@ -142,7 +153,7 @@
                 </div>
                 <div class="break"></div>
                 <div class="modbutton">
-                    <button id="btn" title="Go to top"><a href="https://www.toastmasters.org/pathways-overview" target="_blank">More About Pathways</a></button>
+                    <a href="https://www.toastmasters.org/pathways-overview" target="_blank"><button id="btn">More About Pathways</button></a>
                 </div>
                 </div>
             </div>  
@@ -180,17 +191,26 @@
                         </div>
                    </div>      
                 </div>
+                <div class="faq">
+                   <div class="faq_question">What happens at a Meeting?</div>
+                    <div class="faq_answer_container">
+                        <div class="faq_answer">
+                            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/383gehepo8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                        </div>
+                   </div>      
+                </div>
             </div>
             </div>
         </div>
     </main>
-    <footer>
+    <div class="footer">
         Footer
         Social Icons
         Copyright
         FAQ
         Careers 
-    </footer>
+    </div>
 
 </body>
 </html>

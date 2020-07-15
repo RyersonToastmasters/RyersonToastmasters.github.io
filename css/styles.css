@@ -46,20 +46,7 @@ main{
 /*Adjusting the Attend a Meeting button*/
 
 
-/* Setting the fonts for the page */
-p{
-  font-family: 'Source Sans Pro', sans-serif;
-}
 
-h1{
-  font-family: 'Raleway', sans-serif;
-}
-
-h2{
-    font-family: 'Raleway', sans-serif; 
-}
-
-/* Setting the fonts for the page */
 
 
 /* Adjusting the Hero Image*/
@@ -186,7 +173,7 @@ hr{
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .12), 2px 2px 4px 0 rgba(0, 0, 0, .14);
 }
 
-#btn a{
+a #btn{
     color: white; /*Set text white*/
 }
 

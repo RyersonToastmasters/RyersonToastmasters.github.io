@@ -2,20 +2,20 @@ nav{
   min-height: 60px;
   background-color: #722431;
   display: flex;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 99;
-
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99;
 }
 
+/* Style the Nav Logo*/
 nav logocontainer{
-  display: inline-block;
-position: relative;
-width: 80px;
-vertical-align: middle;
-overflow: hidden;
-margin: 5px 5px 10px;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    vertical-align: middle;
+    overflow: hidden;
+    margin: 5px 5px 10px;
 }
 
 nav svg{
@@ -32,11 +32,68 @@ nav svg:hover{
 }
 
 nav path{
-  transition: fill .5s ease;
+  transition: fill .25s ease;
+}
+/* Style the Nav Logo*/
+
+
+/*General Style for the navbar*/
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-content: flex-end;
 }
 
-nav h1{
+.navbar ul{
+    padding: 0;
+}
+
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar a{
     color: white;
-    margin: auto;
-    text-align: center;
+    transition: color .25s ease;
+}
+
+.navbar a:hover{
+    color: #F2DF74;
+    cursor: pointer;
+}
+
+.navbar .submenu{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    padding: 20px 0 30px;
+    width: 100%;
+    text-align: left;
+    background: #d1d2d4;
+    color: black;    
+}
+
+.navbar .submenu a{
+    color: black;
+}
+
+.navbar .submenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar .submenu .row{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navbar .submenu .column{
+    flex-basis: 30%;
 }
