@@ -15,6 +15,16 @@
    
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154764259-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154764259-2');
+</script>
+    
 </head>
 <body>
     <nav>
@@ -26,20 +36,25 @@
         </a>
       </logocontainer>
     
-    <ul class="navbar">
-        <li><a href="#"><div id="about"><h2>About</h2></div></a></li>
-            <li><a href="#"><div id="members"><h2>Members</h2></div></a>
-                <div class="submenu">
+        <ul class="navbar">
+            <li id="about"><a href="#"><h2>About</h2></a>
+                <div class="submenu" id="aboutsubmenu">
+                    <div class="row">
+                        <ul class="column">
+                            <li><a href="#" target="_blank"><div id="pathwaysguide">Meet the Members</div></a></li>
+                            <li><a href="#" target="_blank"><div id="pathwaysguide">Meet the Executives</div></a></li>
+                        </ul>
+                    </div>                    
+                </div>
+            </li>
+            <li id="members"><a href="#"><h2>Members</h2></a>
+                <div class="submenu" id="memberssubmenu">
                     <div class="row">
                         <ul class="column">
                             <li><a href="html/newmembers.html"><div id="basecamp">New Member Guide</div></a></li>
                             <li><a href="https://www.toastmasters.org/start-pathways" target="_blank"><div id="basecamp">Base Camp</div></a></li>
                             <li><a href="https://d4tm.org/index.php/pathways/paths-and-projects.html?233WVf" target="_blank"><div id="pathwaysguide">Pathways Guide</div></a></li>
                             
-                        </ul>
-                        <ul class="column">
-                            <li><a href="#" target="_blank"><div id="pathwaysguide">Meet the Members</div></a></li>
-                            <li><a href="#" target="_blank"><div id="pathwaysguide">Meet the Executives</div></a></li>
                         </ul>
                     </div>                    
                 </div>

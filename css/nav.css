@@ -10,7 +10,7 @@ nav{
 
 /* Style the Nav Logo*/
 nav logocontainer{
-    display: inline-block;
+    display: block;
     position: relative;
     width: 80px;
     vertical-align: middle;
@@ -23,7 +23,7 @@ nav svg{
   width: 100%;
   height: 100%;
   overflow: visible;
-  display: inline-block;
+  display: block;
   position: absolute;
 }
 
@@ -58,6 +58,7 @@ nav path{
 .navbar a{
     color: white;
     transition: color .25s ease;
+    display: block;
 }
 
 .navbar a:hover{
